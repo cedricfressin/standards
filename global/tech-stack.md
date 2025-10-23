@@ -2,7 +2,8 @@
 
 ### Framework & Runtime
 
-- **Application Framework:** Expo, Next.js
+- **Framework:** Expo
+- **Web Framework:** Next.js
 - **Language/Runtime:** TypeScript, Node.js (LTS)
 - **Package Manager:** Bun
 - **Monorepo Management:** Turborepo
@@ -15,21 +16,31 @@
 - **Repository Manager**: Repomix
 - **AI-Powered Features**: ai, @ai-sdk/openai, @ai-sdk/anthropic
 
-### Frontend
+### Frontend - Shared
 
-- **JavaScript Framework:** React, React Native
-- **CSS Framework:** Uniwind
-- **UI Components:** @rn-primitives (custom styled universal components)
 - **State Management:** React Context API
 - **Data Fetching:** TanStack Query
 - **HTTP Client:** Apisauce
 - **Form Management:** React Hook Form
 - **Schema Validation:** Zod
+- **Internationalization:** react-i18next
+- **Local-First:** Legend-state
+
+### Frontend - Mobile (Expo)
+
+- **JavaScript Framework:** React Native
+- **UI Components:** React Native Reusable
+- **CSS Framework:** Nativewind
+- **Internationalization:** expo-localization
+
+### Frontend - Web (Next.js)
+
+- **JavaScript Framework:** React
+- **UI Components:** Shadcn/ui
+- **CSS Framework:** Tailwind
 - **Keyboard Shortcuts:** React Hotkeys Hook
 - **URL Search Params State:** Nuqs
-- **Internationalization:** expo-localization, react-i18next, next-intl (SEO)
-- **Local-First:** Legend-state
-- **Email Templates:** React Email
+- **Internationalization:** next-intl (SEO)
 
 ### Database & Storage
 
@@ -37,23 +48,33 @@
 - **ORM/Query Builder:** Prisma
 - **Caching:** Redis
 
-### Backend
+### Backend (Next.js)
 
 - **Background Jobs & Workflows:** Inngest
 - **Server Endpoints:** Next.js Route Handlers
-- **Server Actions validation:** Next Safe Action
-- **Backoffice** : `/admin` routes (Next.js)
+- **Server Actions Validation:** Next Safe Action
+- **Backoffice:** `/admin` routes
+- **Email Templates:** React Email
 
-### Testing & Quality
+### Testing & Quality - Shared
 
-- **Test Framework:** Jest, Testing Library, Playwright, Maestro
+- **Test Framework:** Jest, Testing Library
 - **Type Safety:** TypeScript (strict mode)
 - **Linting/Formatting:** Biome, Ultracite
 - **Code Analysis:** Codecov
 - **Dependency Analysis:** Knip
 - **Security Scanning:** Snyk
-- **Performance:** Lighthouse, Flashlight
 - **Git Hooks:** Lefthook
+
+### Testing & Quality - Mobile (Expo)
+
+- **E2E Testing:** Maestro
+- **Performance:** Flashlight
+
+### Testing & Quality - Web (Next.js)
+
+- **E2E Testing:** Playwright
+- **Performance:** Lighthouse
 
 ### Deployment & Infrastructure
 

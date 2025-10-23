@@ -1,11 +1,11 @@
 ## General development conventions
 
-- **Consistent Project Structure**: Organize files and directories in a predictable, logical structure that team members can navigate easily
-- **Clear Documentation**: Maintain up-to-date README files with setup instructions, architecture overview, and contribution guidelines
-- **Dependency Management**: Keep dependencies up-to-date and minimal; document why major dependencies are used
-- **Version Control Best Practices**: Use clear commit messages, feature branches, and meaningful pull/merge requests with descriptions
-- **Feature Flags**: Use feature flags for incomplete features rather than long-lived feature branches
-- **Changelog Maintenance**: Keep a changelog or release notes to track significant changes and improvements
-- **Environment Configuration**: Use environment variables for configuration; never commit secrets or API keys to version control
-- **Code Review Process**: Establish a consistent code review process with clear expectations for reviewers and authors
-- **Testing Requirements**: Define what level of testing is required before merging (unit tests, integration tests, end-to-end tests, etc.)
+- **Project Structure**: Predictable, logical organization
+- **Documentation**: Up-to-date README with setup, architecture, contribution guidelines
+- **Dependencies**: Keep up-to-date and minimal; document major ones
+- **Version Control**: Clear commit messages, feature branches, meaningful PR descriptions
+- **Feature Flags**: Use for incomplete features over long-lived branches
+- **Changelog**: Track significant changes and improvements
+- **Environment**: Use env variables; never commit secrets or API keys
+- **Code Review**: Consistent process with clear expectations
+- **Testing**: Define required level before merging (unit, integration, e2e)

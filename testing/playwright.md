@@ -1,4 +1,4 @@
-## End-to-end testing best practices
+## Playwright end-to-end testing guidelines
 
 ### Test Structure & Style
 
